@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 10px;
+  float: left;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  color: rgb(79, 211, 33);
+}
+
+.navbar {
+  background-color: rgb(79, 211, 33);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+}
+
+.list-item {
+  margin-top: 20px;
+}
+
+.list-item-title {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+}
+
+.square {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.list-item-address {
+  font-size: 12px;
+  color: white;
+  margin-top: 3px;
+}
+
+.list-item-charge-status {
+  font-size: 12px;
+  color: white;
+  margin-top: 3px;
+}
+
+.progress-bar {
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.progress-bar-red {
+  background-color: rgb(172, 64, 57);
+  width: 15%;
+}
+
+.progress-bar-orange {
+  background-color: rgb(237, 172, 77);
+  width: 35%;
+}
+
+.progress-bar-green {
+  background-color: rgb(73, 183, 40);
+  width: 50%;
+}
